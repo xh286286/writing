@@ -1,0 +1,23 @@
+[PKUVIS] Research Progress Report 2013 08 13 xiaohe
+Storyline visualization
+Initial result : http://bl.ocks.org/xh286286/6138378/
+
+The system consist of  3 parts :  Genetic Algorithms(GA)，(offline) generate and evolve the layout slots of the topics; rendering module, based on the layout information, adjust the postition of the topics and set up the links for each person;  Score module,  measure the display quality of the rendering images for genetic algorithm.
+
+We use D3 to render the storyline online to achieve smooth transistion and better interaction for users.
+
+The origin paper  use  GA generate the slots for topics. An obvious improvement  is to calculate the slots for each person for one topics,  while much more computing resources is required.
+For accelerating, we can use dynamics program to get an approximating result for rendering. 
+With good optimization, I think the dynamics algorithm will cost short time  for  instant interaction.
+
+
+3 candidate papers for my paper presentation this week.
+
+Wu, Yingcai, Xiaotong Liu, Shixia Liu, and K. Ma. "ViSizer: A Visualization Resizing Framework." (2013): 1-1.
+http://vis.pku.edu.cn/paper/tvcg/2013/01_03/assets/html/ttg2013020278.html
+
+Nam, J., and Klaus Mueller. "TripAdvisorN-D: A Tourism-Inspired High-Dimensional Space Exploration Framework with Overview and Detail." (2013): 1-1.
+http://vis.pku.edu.cn/paper/tvcg/2013/01_03/assets/html/ttg2013020291.html
+
+Dang, T., Anushka Anand, and Leland Wilkinson. "Timeseer: Scagnostics for high-dimensional time series." (2013): 1-1.
+http://vis.pku.edu.cn/paper/tvcg/2013/01_03/assets/html/ttg2013030470.html
